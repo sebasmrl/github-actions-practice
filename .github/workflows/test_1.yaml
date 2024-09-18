@@ -20,8 +20,8 @@ jobs:
       - name: Read file
         run: cat hola.txt
 
-    otro:
-      runs-on: ubuntu-latest
-      steps: 
-        - name: LS
-          run: ls -al 
+  otro:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: LS
+        run: ls -al 
